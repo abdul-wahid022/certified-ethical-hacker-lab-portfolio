@@ -34,7 +34,7 @@ This repository documents my practical work for the EC-Council Certified Ethical
 | **Certification**     | EC-Council Certified Ethical Hacker (CEH)                                        |
 | **Completed**         | Modules 02 to 05 (practical work)                                                |
 | **Module 02 scope**   | Public data sources and light probing of one organisation's public assets        |
-| **Modules 03 to 05**  | Isolated VirtualBox host-only network, no internet access                        |
+| **Modules 03 to 05**  | Isolated VirtualBox host-only network                                            |
 | **Format**            | One folder per module, each with its own `README.md`                             |
 
 ## Modules
@@ -83,7 +83,7 @@ The remaining CEH modules will be added here once the labs are complete.
 |                       |                                                                                          |
 | --------------------- | ---------------------------------------------------------------------------------------- |
 | **Hypervisor**        | VirtualBox                                                                               |
-| **Network**           | Host-only network `192.168.100.0/24`, no internet access                                 |
+| **Network**           | Isolated host-only network `192.168.100.0/24`                                            |
 | **Attacker machine**  | Kali Linux                                                                               |
 | **Targets**           | Metasploitable 2 · Ubuntu with DVWA · Windows 10 · Windows Server 2025 (domain controller) |
 | **Scope**             | Every attack in Modules 03 to 05 targets only machines inside the lab topology           |
@@ -100,19 +100,23 @@ certified-ethical-hacker-lab-portfolio/
 ├── 02-Footprinting-and-Reconnaissance/
 │   ├── README.md
 │   └── images/
+│       └── cover.png
 ├── 03-Scanning-Networks/
 │   ├── README.md
 │   ├── Scanning.pdf
 │   └── images/
+│       └── cover.png
 ├── 04-Enumeration/
 │   ├── README.md
 │   ├── Enumeration.pdf
 │   └── images/
+│       └── cover.png
 └── 05-Vulnerability-Analysis/
     ├── README.md
     ├── OpenVAS.pdf
     ├── Acunetix.pdf
     └── images/
+        └── cover.png
 ```
 
 ## License
@@ -125,8 +129,13 @@ Modules 03 to 05 were carried out in a private, isolated virtual network built f
 
 ## Contact
 
-**Abdul Wahid** Certified Ethical Hacker (CEH) Candidate — EC-Council
+<p align="center">
+  <b>Abdul Wahid</b><br/>
+  Certified Ethical Hacker (CEH) Candidate — EC-Council
+</p>
 
-<a href="mailto:a.wahid7860668@gmail.com"><img src="https://img.shields.io/badge/EMAIL-0d1117?style=for-the-badge&logo=gmail&logoColor=white&color=00b4d8" alt="Email"/></a>
-<a href="https://www.linkedin.com/in/abdul-wahid022"><img src="https://img.shields.io/badge/LINKEDIN-0d1117?style=for-the-badge&logo=linkedin&logoColor=white&color=00b4d8" alt="LinkedIn"/></a>
-<a href="https://github.com/abdul-wahid022"><img src="https://img.shields.io/badge/GITHUB-0d1117?style=for-the-badge&logo=github&logoColor=white&color=00b4d8" alt="GitHub"/></a>
+<p align="center">
+  <a href="mailto:a.wahid7860668@gmail.com"><img src="https://img.shields.io/badge/EMAIL-0d1117?style=for-the-badge&logo=gmail&logoColor=white&color=00b4d8" alt="Email"/></a>
+  <a href="https://www.linkedin.com/in/abdul-wahid022"><img src="https://img.shields.io/badge/LINKEDIN-0d1117?style=for-the-badge&logo=linkedin&logoColor=white&color=00b4d8" alt="LinkedIn"/></a>
+  <a href="https://github.com/abdul-wahid022"><img src="https://img.shields.io/badge/GITHUB-0d1117?style=for-the-badge&logo=github&logoColor=white&color=00b4d8" alt="GitHub"/></a>
+</p>
